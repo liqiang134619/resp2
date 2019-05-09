@@ -21,5 +21,9 @@ public class ChatroomApplicationTests {
 		User admin = iUserMapper.findUser("admin");
 		System.out.println(admin);
 	}
+	@Test
+	public void test2() {
+		System.out.println("git");
+	}
 
 }
